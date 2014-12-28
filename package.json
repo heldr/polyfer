@@ -24,8 +24,7 @@
     "content",
     "webcomponents",
     "shadowdom",
-    "shadowcss",
-    ""
+    "shadowcss"
   ],
   "dependencies": {
     "meow": "^2.0.0",

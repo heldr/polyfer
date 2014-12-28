@@ -2,13 +2,13 @@
 
 > Post-processor for [Polymer CSS polyfills][polyfills-doc]
 
-
 ## Install
 
 ```sh
 $ npm install --save polyfer
 ```
 
+Or automate using [gulp-polyfer][npm-gulp-url] (Grunt plugin soon :P)
 
 ## Usage
 
@@ -35,6 +35,7 @@ MIT © [Helder Santana](http://git.io/heldr)
 
 
 [npm-url]: https://npmjs.org/package/polyfer
+[npm-gulp-url]: https://npmjs.org/package/gulp-polyfer
 [npm-image]: https://badge.fury.io/js/polyfer.svg
 [travis-url]: https://travis-ci.org/heldr/polyfer
 [travis-image]: https://travis-ci.org/heldr/polyfer.svg?branch=master
