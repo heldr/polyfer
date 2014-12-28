@@ -8,7 +8,7 @@
 $ npm install --save polyfer
 ```
 
-If you are a task manager lover, try [gulp-polyfer][npm-gulp-url] or [grunt-polyfer][npm-grunt-url].
+In a case that you are a task manager lover, please try [gulp-polyfer][npm-gulp-url] or [grunt-polyfer][npm-grunt-url] and have fun :)
 
 ## Usage
 
