@@ -1,0 +1,50 @@
+{
+  "name": "polyfer",
+  "version": "0.0.0",
+  "description": "Post processor for Polymer CSS polyfills",
+  "author": {
+    "name": "Helder Santana",
+    "email": "",
+    "url": "http://git.io/heldr"
+  },
+  "repository": "heldr/polyfer",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "polyfer",
+    "polyfill",
+    "polymer",
+    "postcss",
+    "preprocessor",
+    "postprocessor",
+    "selectors",
+    "content",
+    "webcomponents",
+    "shadowdom",
+    "shadowcss",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^2.0.0",
+    "postcss": "^3.0.7"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "polyfer": "cli.js"
+  }
+}
