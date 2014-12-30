@@ -4,6 +4,6 @@ var postcss = require('postcss'),
 
 module.exports = function (str) {
     return postcss(function(root) {
-        root.each(parser.bind(root));
+        root.eachRule(parser);
     }).process(str).css;
 };

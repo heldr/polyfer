@@ -25,13 +25,13 @@ describe('polyfer', function () {
             it('should add rules for ::content pseudo-selectors at the begin', function () {
                 var rule = '::content p > a { display: block; }';
 
-                assert.deepEqual(polyfer(rule), 'polyfill-next-selector { content: \'p > a\'; } ' + rule);
+                assert.deepEqual(polyfer(rule), 'polyfill-next-selector { content: \'p > a\' }\n' + rule);
             });
 
             it('should add rules for ::content pseudo-selectors, no matter the position', function () {
                 var rule = 'x-element ::content p > a { display: block; }';
 
-                assert.deepEqual(polyfer(rule), 'polyfill-next-selector { content: \'x-element p > a\'; } ' + rule);
+                assert.deepEqual(polyfer(rule), 'polyfill-next-selector { content: \'x-element p > a\' }\n' + rule);
             });
 
             it('should not consider applied polyfill-next-selector', function () {
