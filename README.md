@@ -17,8 +17,8 @@ var polyfer = require('polyfer');
 
 polyfer('::content p'); // => polyfill-next-selector {...} ::content p
 polyfer('x-element ::content p'); // => polyfill-next-selector {...} x-element ::content
-polyfer('::scoped x-element p'); // => polyfill-rule {...}
-polyfer('::unscoped x-element p'); // => polyfill-unscoped-rule {...}
+polyfer(':scoped x-element p'); // => polyfill-rule {...}
+polyfer(':unscoped x-element p'); // => polyfill-unscoped-rule {...}
 ```
 
 ```sh

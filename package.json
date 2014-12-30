@@ -27,6 +27,7 @@
     "shadowcss"
   ],
   "dependencies": {
+    "lodash.find": "^2.4.1",
     "meow": "^2.0.0",
     "postcss": "^3.0.7"
   },
@@ -35,7 +36,7 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "^0.4.1",
     "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^1.0.0",
+    "load-grunt-tasks": "^2.0.0",
     "time-grunt": "^1.0.0",
     "grunt-mocha-cli": "^1.11.0",
     "jshint-stylish": "^1.0.0"
