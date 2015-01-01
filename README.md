@@ -45,11 +45,6 @@ $ polyfer input.css > output.css
 $ polyfer --help
 ```
 
-## Release notes
-
- * 0.1.0 - refactory, bug fixes and /deep/ selectors
- * 0.0.x - first releases
-
 ## Roadmap
 * 0.2.0 - enable and disable specific polyfills processing
 
@@ -61,7 +56,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 git clone https://github.com/heldr/polyfer.git
 cd polyfer
 npm install
-grunt watch
+gulp watch
 ```
 
 ## License
