@@ -7,7 +7,7 @@ x-element ::content p > a {
 }
 
 polyfill-next-selector {
-    content: 'x-element p > a'
+    content: 'x-element p > a';
 }
 x-element ::content p > a {
     border-radius: 1;

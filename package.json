@@ -30,7 +30,7 @@
   "dependencies": {
     "lodash.find": "^2.4.1",
     "meow": "^2.0.0",
-    "postcss": "^3.0.7"
+    "postcss": "^4.0.0"
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
