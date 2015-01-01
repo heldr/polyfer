@@ -1,10 +1,10 @@
-# Polyfer [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# Polyfer [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image] [![Coverage Status][coveralls-image]][coveralls-url]
 
 > Post-processor for [Polymer CSS polyfills][polyfills-doc]
 
 ## Install
 
-```sh
+```bash
 $ npm install --save polyfer
 ```
 
@@ -55,7 +55,7 @@ $ polyfer --help
 
 ## Contribute
 
-Keep in mind that all tasks run through [Grunt.js](http://gruntjs.com/).
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [gulp](http://gulpjs.com/).
 
 ```shell
 git clone https://github.com/heldr/polyfer.git
@@ -72,9 +72,11 @@ MIT © [Helder Santana](http://git.io/heldr)
 [npm-url]: https://npmjs.org/package/polyfer
 [npm-gulp-url]: https://npmjs.org/package/gulp-polyfer
 [npm-grunt-url]: https://npmjs.org/package/grunt-polyfer
-[npm-image]: https://badge.fury.io/js/polyfer.svg
+[npm-image]: https://img.shields.io/npm/v/polyfer.svg?style=flat
 [travis-url]: https://travis-ci.org/heldr/polyfer
 [travis-image]: https://travis-ci.org/heldr/polyfer.svg?branch=master
 [daviddm-url]: https://david-dm.org/heldr/polyfer.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/heldr/polyfer
 [polyfills-doc]: https://www.polymer-project.org/docs/polymer/styling.html#directives
+[coveralls-url]: https://coveralls.io/r/heldr/polyfer
+[coveralls-image]: https://img.shields.io/coveralls/heldr/polyfer/master.svg?style=flat
